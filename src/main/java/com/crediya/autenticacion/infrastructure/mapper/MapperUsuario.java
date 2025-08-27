@@ -24,7 +24,7 @@ public class MapperUsuario {
 
     public Usuario toUsuario(UsuarioRequest usuarioRequest){
         return new Usuario(
-                null,
+                usuarioRequest.id(),
                 usuarioRequest.nombres(),
                 usuarioRequest.apellidos(),
                 usuarioRequest.fechaNacimiento(),

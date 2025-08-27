@@ -4,6 +4,7 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 
 public record UsuarioRequest(
+        String id,
         String nombres,
         String apellidos,
         LocalDate fechaNacimiento,
